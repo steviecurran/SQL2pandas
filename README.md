@@ -2,13 +2,13 @@
 
 **SQL commands in pandas**. 
 
-SQL emulator using Python pandas functions. Has the advantages:
+SQL commands using Python pandas functions. This has the advantages:
 
 • The functions can easily be stored for future use
    
-• Can pass the output of one fucntion in input to another
+• Can pass the output of one function in input to another
 
-• Sigificantly less code 
+• Requires gificantly less code - SQL gets very clunky very quickly
    
 • Functions can be made interactive 
 
