@@ -2,7 +2,7 @@
 
 SQL commands using Python pandas functions. 
 
-I suggest you download the Jupyter notebook and run it locally to get the full functionality (e.g. the table of contents).
+I suggest you download the Jupyter notebook and run it locally to get the full functionality (e.g. the table of contents) and let me know if there's anything you want added. 
 
 ![](https://raw.githubusercontent.com/steviecurran/portfolio/refs/heads/main/assets/img/Jupyter_example.png)
 
