@@ -1,6 +1,6 @@
 # SQL2pandas
 
-SQL commands using Python pandas functions. 
+Translate SQL queries into pandas operations for fast exploratory analysis and data transformation in Python.
 
 I suggest you download the Jupyter notebook and run it locally to get the full functionality (e.g. the table of contents) and let me know if there's anything you want added. 
 
