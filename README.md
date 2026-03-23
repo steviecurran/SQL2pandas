@@ -9,19 +9,20 @@ Many analysts are fluent in SQL but need to transition to Python data workflows.
 
 **Example**
 
-SQL:
-SELECT country, AVG(revenue)
-FROM sales
-GROUP BY country;
+    SQL:
+    SELECT country, AVG(revenue)
+    FROM sales
+    GROUP BY country;
 
 Equivalent pandas:
-df.groupby("country")["revenue"].mean()
+
+    df.groupby("country")["revenue"].mean()
 
 **Features**
 
-• SQL SELECT / WHERE / GROUP BY equivalents
-• Translation helper functions
-• Examples for analysts moving to pandas
+ - SQL SELECT / WHERE / GROUP BY equivalents
+ - Translation helper functions
+ -  Examples for analysts moving to pandas
 
 
 ![](https://raw.githubusercontent.com/steviecurran/SQL2pandas/refs/heads/main/Jupyter_example.png)
