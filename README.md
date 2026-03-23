@@ -1,12 +1,14 @@
-# SQL2pandas
+## SQL2pandas ##
 
-SQL2pandas
+
 Translate SQL queries into equivalent pandas operations.
 
-Motivation
+**Motivation**
+
 Many analysts are fluent in SQL but need to transition to Python data workflows.
 
-Example
+**Example**
+
 SQL:
 SELECT country, AVG(revenue)
 FROM sales
@@ -15,7 +17,8 @@ GROUP BY country;
 Equivalent pandas:
 df.groupby("country")["revenue"].mean()
 
-Features
+**Features**
+
 • SQL SELECT / WHERE / GROUP BY equivalents
 • Translation helper functions
 • Examples for analysts moving to pandas
