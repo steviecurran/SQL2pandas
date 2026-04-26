@@ -4,7 +4,7 @@ This project demonstrates how common SQL-style analytical queries can be impleme
 
 The focus is on translating structured query logic into flexible Python workflows, while maintaining a clear link between data manipulation and business interpretation.
 
-###Motivation
+### Motivation
 
 Many analysts are fluent in SQL but need to transition to Python data workflows.
 
