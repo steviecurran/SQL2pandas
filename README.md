@@ -29,11 +29,19 @@ Equivalent pandas:
 
     df.groupby("country")["revenue"].mean()
 
-### Key Analysis
+### Key Analyses
+
+**Business Problem 1**
 
 A Pareto-style analysis is used to examine how revenue is distributed across customers.
 
 The results quantify what proportion of customers generate 80% of total revenue, providing a data-driven view of concentration rather than assuming a standard 80/20 split.
+
+**Business Problem 2**
+
+Combine the datasets to compare the salaries of each department.
+
+![](https://github.com/steviecurran/SQL2pandas/blob/main/dept_salaries.png)
 
 ## Interpretation
 
