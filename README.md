@@ -1,6 +1,6 @@
 ## SQL to Pandas: Practical Data Analysis
 
-This project demonstrates how common SQL-style analytical queries can be implemented in pandas, applied to a transactional dataset to generate insights.
+This project demonstrates how SQL-style analytical queries can be translated into pandas workflows, applied to a transactional dataset to generate practical insights.
 
 The focus is on translating structured query logic into flexible Python workflows, while maintaining a clear link between data manipulation and business interpretation.
 
