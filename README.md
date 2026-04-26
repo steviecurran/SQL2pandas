@@ -6,7 +6,7 @@ The focus is on translating structured query logic into flexible Python workflow
 
 ### Motivation
 
-Many analysts are fluent in SQL but need to transition to Python data workflows.
+Many analysts are fluent in SQL but need to transition to Python-based data workflows for more flexible analysis and modelling.
 
 ### Overview
 
@@ -35,11 +35,11 @@ Equivalent pandas:
 
 A Pareto-style analysis is used to examine how revenue is distributed across customers.
 
-The results quantify what proportion of customers generate 80% of total revenue, providing a data-driven view of concentration rather than assuming a standard 80/20 split.
+The analysis shows that approximately X% of customers generate 80% of total revenue, providing a data-driven view of concentration rather than assuming a standard 80/20 split.
 
 **Business Problem 2**
 
-Combine the datasets to compare the salaries of each department.
+Relational databases - combine the datasets to compare the salaries of each department.
 
 ![](https://github.com/steviecurran/SQL2pandas/blob/main/dept_salaries.png)
 
@@ -59,16 +59,20 @@ and helps inform decisions around targeting, retention, and resource allocation.
 
 ### Features
 
- - SQL SELECT / WHERE / GROUP BY equivalents
- - Translation helper functions
- -  Examples for analysts moving to pandas
+- SQL-to-pandas translations for common analytical queries  
+- End-to-end workflow: filtering → aggregation → ranking → interpretation  
+- Pareto analysis for revenue concentration  
+- Practical examples for analysts transitioning from SQL to Python  
 
 ![](https://raw.githubusercontent.com/steviecurran/SQL2pandas/refs/heads/main/Jupyter_example.png)
 
-I suggest you download the Jupyter notebook and run it locally to get the full functionality (e.g. the table of contents) and let me know if there's anything you want added. 
+For full interactivity (e.g. navigation and outputs), run the notebook locally.
 
 ### Summary
 
 This project illustrates how SQL-style queries can be translated into pandas workflows to support practical, real-world data analysis, combining structured querying with flexible exploration and interpretation.
 
-See https://github.com/steviecurran/sql2csv to convert .sql to .csv, via the C shell
+### Related Projects
+
+- [sql2csv](https://github.com/steviecurran/sql2csv): Convert SQL outputs to CSV via shell scripting  
+
