@@ -52,7 +52,7 @@ This type of analysis is commonly used in:
 - product performance tracking
 - financial reporting
 
-and helps inform decisions around targeting, retention, and resource allocation.
+and helps inform decisions around targeting, retention and resource allocation.
 
 ### Tools
 - Python (pandas, NumPy, matplotlib)
