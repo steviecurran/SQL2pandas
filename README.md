@@ -52,12 +52,12 @@ This type of analysis is commonly used in:
 
 and helps inform decisions around targeting, retention, and resource allocation.
 
-###Tools
+### Tools
 - Python (pandas, NumPy, matplotlib)
 - SQL-style query logic
 - Exploratory data analysis
 
-###Features
+### Features
 
  - SQL SELECT / WHERE / GROUP BY equivalents
  - Translation helper functions
@@ -67,7 +67,7 @@ and helps inform decisions around targeting, retention, and resource allocation.
 
 I suggest you download the Jupyter notebook and run it locally to get the full functionality (e.g. the table of contents) and let me know if there's anything you want added. 
 
-###Summary
+### Summary
 
 This project illustrates how SQL-style queries can be translated into pandas workflows to support practical, real-world data analysis, combining structured querying with flexible exploration and interpretation.
 
