@@ -18,6 +18,8 @@ The notebook walks through a typical analytical workflow:
 
 Each step is framed using SQL-style queries alongside their pandas equivalents.
 
+![](https://raw.githubusercontent.com/steviecurran/SQL2pandas/refs/heads/main/Jupyter_example.png)
+
 **Example**
 
     SQL:
@@ -63,8 +65,6 @@ and helps inform decisions around targeting, retention, and resource allocation.
 - End-to-end workflow: filtering → aggregation → ranking → interpretation  
 - Pareto analysis for revenue concentration  
 - Practical examples for analysts transitioning from SQL to Python  
-
-![](https://raw.githubusercontent.com/steviecurran/SQL2pandas/refs/heads/main/Jupyter_example.png)
 
 For full interactivity (e.g. navigation and outputs), run the notebook locally.
 
