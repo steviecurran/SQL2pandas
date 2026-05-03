@@ -37,7 +37,7 @@ Equivalent pandas:
 
 A Pareto-style analysis is used to examine how revenue is distributed across customers.
 
-The analysis shows that approximately X% of customers generate 80% of total revenue, providing a data-driven view of concentration rather than assuming a standard 80/20 split.
+The analysis shows that approximately 66% of customers generate 80% of total revenue, providing a data-driven view of concentration rather than assuming a standard 80/20 split.
 
 **Business Problem 2**
 
