@@ -20,7 +20,7 @@ An interactive Streamlit workbench for learning SQL through pandas, exploring re
 - Searchable SQL-to-pandas reference
 - Downloadable result tables
 
-<img src="assets/screenshots/dept_salaries.png" width = "500px">
+<img src="assets/screenshots/dept_salaries.png" width = "700px">
 
 🚀 **Run online**  https://sql-to-pandas-toolkit.streamlit.app
 
