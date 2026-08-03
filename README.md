@@ -1,78 +1,77 @@
-## SQL to Pandas: Practical Data Analysis
+# SQL to Pandas Workbench
 
-This project demonstrates how SQL-style analytical queries can be translated into pandas workflows, applied to a transactional dataset to generate practical insights.
+An interactive Streamlit workbench for learning SQL through pandas, exploring relational data, and solving real business analysis problems.
 
-The focus is on translating structured query logic into flexible Python workflows, while maintaining a clear link between data manipulation and business interpretation.
+## Live app
 
-### Motivation
+Add the Streamlit Community Cloud URL here after deployment.
 
-Many analysts are fluent in SQL but need to transition to Python-based data workflows for more flexible analysis and modelling.
+## Features
 
-### Overview
+- Built-in customers, products, orders and transactions tables
+- CSV/TXT/DAT/TSV upload and URL import
+- SELECT, WHERE, IN and NOT IN
+- GROUP BY, aggregate functions and HAVING
+- INNER, LEFT, RIGHT, FULL OUTER and CROSS joins
+- Same-name, different-name and multi-column join keys
+- Join diagnostics for matched and unmatched rows
+- ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, cumulative sums and rolling means
+- CASE WHEN
+- UNION and UNION ALL
+- End-to-end customer-revenue concentration analysis with notebook-style histogram and Pareto chart
+- Department salary comparison using four joined employee tables
+- Interactive 3 × 3 salary-distribution histograms
+- Searchable SQL-to-pandas reference
+- Downloadable result tables
 
-The notebook walks through a typical analytical workflow:
-- filtering and selecting data
-- aggregating metrics (e.g. revenue by customer)
-- ranking and sorting results
-- analysing distributions and concentration
+## Repository structure
 
-Each step is framed using SQL-style queries alongside their pandas equivalents.
+```text
+.
+├── app/
+│   └── sql_to_pandas_app.py
+├── data/
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── products.csv
+│   └── transactions.csv
+├── notebooks/
+│   └── SQL2pandas.ipynb
+├── src/
+│   ├── datasets.py
+│   ├── examples.py
+│   ├── joins.py
+│   ├── operations.py
+│   ├── reference.py
+│   ├── unions.py
+│   └── windows.py
+├── tests/
+│   └── test_workbench.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
-![](https://raw.githubusercontent.com/steviecurran/SQL2pandas/refs/heads/main/Jupyter_example.png)
+## Run locally
 
-**Example**
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+streamlit run app/sql_to_pandas_app.py
+```
 
-    SQL:
-    SELECT country, AVG(revenue)
-    FROM sales
-    GROUP BY country;
+## Run tests
 
-Equivalent pandas:
+```bash
+pytest
+```
 
-    df.groupby("country")["revenue"].mean()
+<img src="assets/screenshots/dept_salaries.png" width = "500px">
 
-### Key Analyses
+## Scope
 
-**Business Problem 1**
-
-A Pareto-style analysis is used to examine how revenue is distributed across customers.
-
-The analysis shows that approximately 66% of customers generate 80% of total revenue, providing a data-driven view of concentration rather than assuming a standard 80/20 split.
-
-**Business Problem 2**
-
-Relational databases - combine the datasets to compare the salaries of each department.
-
-![](https://github.com/steviecurran/SQL2pandas/blob/main/dept_salaries.png)
-
-## Interpretation
-
-This type of analysis is commonly used in:
-- customer analytics
-- product performance tracking
-- financial reporting
-
-and helps inform decisions around targeting, retention and resource allocation.
-
-### Tools
-- Python (pandas, NumPy, matplotlib)
-- SQL-style query logic
-- Exploratory data analysis
-
-### Features
-
-- SQL-to-pandas translations for common analytical queries  
-- End-to-end workflow: filtering → aggregation → ranking → interpretation  
-- Pareto analysis for revenue concentration  
-- Practical examples for analysts transitioning from SQL to Python  
-
-For full interactivity (e.g. navigation and outputs), run the notebook locally.
-
-### Summary
-
-This project illustrates how SQL-style queries can be translated into pandas workflows to support practical, real-world data analysis, combining structured querying with flexible exploration and interpretation.
-
-### Related Projects
-
-- [sql2csv](https://github.com/steviecurran/sql2csv): Convert SQL outputs to CSV via shell scripting  
+The app uses a structured query builder. It does not parse arbitrary SQL text, and it is not a substitute for validating queries against the target database engine.
 
