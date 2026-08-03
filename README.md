@@ -2,6 +2,22 @@
 
 An interactive Streamlit workbench for learning SQL through pandas, exploring relational data, and solving real business analysis problems.
 
+🚀 **Run online**  https://sql-to-pandas-toolkit.streamlit.app
+
+
+📓 **Run notebook:** `notebooks/SQL2pandas.ipynb
+
+💻 **Run locally**
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+streamlit run app/sql_to_pandas_app.py
+```
+
+
 ## Features
 
 - Built-in customers, products, orders and transactions tables
@@ -21,23 +37,6 @@ An interactive Streamlit workbench for learning SQL through pandas, exploring re
 - Downloadable result tables
 
 <img src="assets/screenshots/dept_salaries.png" width = "700px">
-
-🚀 **Run online**  https://sql-to-pandas-toolkit.streamlit.app
-
-
-📓 **Run notebook:** `notebooks/SQL2pandas.ipynb
-
-💻 **Run locally**
-
-```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-streamlit run app/sql_to_pandas_app.py
-```
-
-
 
 
 
