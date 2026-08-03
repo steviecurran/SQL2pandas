@@ -2,10 +2,6 @@
 
 An interactive Streamlit workbench for learning SQL through pandas, exploring relational data, and solving real business analysis problems.
 
-## Live app
-
-Add the Streamlit Community Cloud URL here after deployment.
-
 ## Features
 
 - Built-in customers, products, orders and transactions tables
@@ -23,6 +19,27 @@ Add the Streamlit Community Cloud URL here after deployment.
 - Interactive 3 × 3 salary-distribution histograms
 - Searchable SQL-to-pandas reference
 - Downloadable result tables
+
+<img src="assets/screenshots/dept_salaries.png" width = "500px">
+
+🚀 **Run online**  https://sql-to-pandas-toolkit.streamlit.app
+
+
+📓 **Run notebook:** `notebooks/SQL2pandas.ipynb
+
+💻 **Run locally**
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+streamlit run app/sql_to_pandas_app.py
+```
+
+
+
+
 
 ## Repository structure
 
@@ -53,23 +70,6 @@ Add the Streamlit Community Cloud URL here after deployment.
 └── .gitignore
 ```
 
-## Run locally
-
-```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-streamlit run app/sql_to_pandas_app.py
-```
-
-## Run tests
-
-```bash
-pytest
-```
-
-<img src="assets/screenshots/dept_salaries.png" width = "500px">
 
 ## Scope
 
