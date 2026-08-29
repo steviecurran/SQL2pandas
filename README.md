@@ -5,7 +5,7 @@ An interactive Streamlit workbench for learning SQL through pandas, exploring re
 🚀 **Run online**  https://sql-to-pandas-toolkit.streamlit.app
 
 
-📓 **Run notebook:** `notebooks/SQL2pandas.ipynb
+📓 **Run notebook:** notebooks/SQL2pandas.ipynb
 
 💻 **Run locally**
 
